@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/my-website',
   output: 'export',
 };
 
 //images: {
+// basePath: '/my-website',
 //    unoptimized: true
 //  },
 //    reactStrictMode: true,

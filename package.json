@@ -3,13 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://mmolalekan.github.io/my-website",
   "scripts": {
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
     "build": "next build",
-    "deploy": "next build && gh-pages -d out"
+    "export": "next export"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.3",

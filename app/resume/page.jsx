@@ -48,24 +48,24 @@ const experience = {
   description: "",
   items: [
     {
+      company: "Zakat Bridge",
+      position: "Full Stack Developer",
+      duration: "2025 - Present",
+    },    
+{
       company: "Ebaad",
       position: "Full Stack Developer",
       duration: "2024 - Present",
     },
     {
       company: "DataUp Gaming",
-      position: "Freelance Front-End Developer",
-      duration: "2024 - Present",
+      position: "Front-End Developer",
+      duration: "2024 - 2025",
     },
     {
       company: "IC Engineering Inc. (USA)",
-      position: "Full Stack Developer",
-      duration: "2023 - 2024",
-    },
-    {
-      company: "IR Institute",
-      position: "Front-End Developer",
-      duration: "2022",
+      position: "Web Developer",
+      duration: "2023 - 2025",
     },
   ]
 }

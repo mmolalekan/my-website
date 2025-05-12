@@ -18,18 +18,18 @@ const about = {
       fieldName: "Name",
       fieldValue: "Abdulmuhaymin Olalekan"
     },
-    {
-      fieldName: "Phone",
-      fieldValue: "(+234) 806 507 5359"
-    },
+    // {
+    //   fieldName: "Phone",
+    //   fieldValue: "(+234) 806 507 5359"
+    // },
     {
       fieldName: "Experience",
-      fieldValue: "2+ Years"
+      fieldValue: "3+ Years"
     },
-    {
-      fieldName: "Nationality",
-      fieldValue: "Nigerian"
-    },
+    // {
+    //   fieldName: "Nationality",
+    //   fieldValue: "Nigerian"
+    // },
     {
       fieldName: "Freelance",
       fieldValue: "Available"
@@ -48,19 +48,24 @@ const experience = {
   description: "",
   items: [
     {
+      company: "Zakat Bridge",
+      position: "Full Stack Developer",
+      duration: "2025 - Present",
+    },    
+{
+      company: "Ebaad",
+      position: "Full Stack Developer",
+      duration: "2024 - Present",
+    },
+    {
       company: "DataUp Gaming",
-      position: "Freelance Front-End Developer",
-      duration: "2024",
+      position: "Front-End Developer",
+      duration: "2024 - 2025",
     },
     {
       company: "IC Engineering Inc. (USA)",
-      position: "Full Stack Developer",
-      duration: "2023 - Present",
-    },
-    {
-      company: "IR Institute",
-      position: "Front-End Developer",
-      duration: "2022 - Present",
+      position: "Web Developer",
+      duration: "2023 - 2025",
     },
   ]
 }

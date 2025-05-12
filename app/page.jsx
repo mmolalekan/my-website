@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi";
+import { FiDownload, FiMail } from "react-icons/fi";
 import Link from "next/link";
 
 // components
@@ -19,7 +19,7 @@ const Home = () => {
               Hi, I am <span className="text-4xl text-accent">Abdulmuhaymin</span>
             </h1> */}
             <p className="max-w-[500px] mb-9 text-justify">
-              As a dedicated Full Stack Developer with two years of experience, I specialize in crafting dynamic and responsive web applications, with a particular affinity for front-end development. My expertise lies in leveraging modern technologies such as <span className="text-accent">React</span> to create seamless user experiences that are both visually compelling and highly functional. While I possess a solid foundation in back-end development, working with <span className="text-accent">Django</span>, <span className="text-accent">Django Restframework</span>, and <span className="text-accent">MySQL</span>, my passion truly shines in the intricacies of front-end design and development. I am committed to continuously honing my skills and staying abreast of industry trends to deliver innovative solutions that meet and exceed client expectations.            </p>
+              As a dedicated Full Stack Developer with over three years of experience, I specialize in crafting dynamic and responsive web applications, with a particular affinity for front-end development. My expertise lies in leveraging modern technologies such as <span className="text-accent">React</span> to create seamless user experiences that are both visually compelling and highly functional. While I possess a solid foundation in back-end development, working with <span className="text-accent">Django</span>, <span className="text-accent">Django Restframework</span>, and <span className="text-accent">MySQL</span>, my passion truly shines in the intricacies of front-end design and development. I am committed to continuously honing my skills and staying abreast of industry trends to deliver innovative solutions that meet and exceed client expectations.            </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Link href="/assets/Abdulmuhaymin Olalekan.pdf">
@@ -28,12 +28,14 @@ const Home = () => {
                   <FiDownload className="text-xl" />
                 </Button>
               </Link>
-              <div className="mb-8 xl:mb-0">
-                <Social
-                  containerStyles="flex gap-8"
-                  iconStyles="w-10 h-10 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"
-                />
-              </div>
+
+              <Link href="/contact">
+                <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
+                  <span>Contact</span>
+                  <FiMail className="text-xl" />
+                </Button>
+              </Link>
+
             </div>
           </div>
           {/* photo */}
